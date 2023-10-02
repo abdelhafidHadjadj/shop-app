@@ -1,11 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,800&family=Nothing+You+Could+Do&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --first-color: #F2F2F2;
+  --second-color: #0540F2;
+  --third-color: #030F26;
+  --fourth-color: #056CF2;
+  --five-color: #5E9FF2;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -15,13 +18,27 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
+/*------Button component------*/
+.primary-btn {
+  @apply border border-[--second-color] px-4 py-2 text-[--second-color] rounded-[25px]
+}
+.second-btn {
+  @apply border border-[--second-color] px-4 py-2 text-[--second-color] bg-[--second-color]
+}
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  font-family: 'Lexend', 'Poppins';
+  color: var(--third-color);
 }
+
+header {
+  @apply flex p-4 w-full fixed border
+}
+header .NavBar {
+  @apply flex justify-between w-full
+}
+header .NavBar ul{
+  @apply flex gap-4
+}
+
+

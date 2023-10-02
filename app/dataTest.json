@@ -1,0 +1,39 @@
+[
+    {
+        "id": "1",
+        "imgUrl": "",
+        "ProductName": "Product1",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit sint commodi facilis omnis? Cumque eius tenetur quasi dolorem, dignissimos suscipit? Aspernatur mollitia cupiditate fugiat ratione praesentium ipsum nam atque provident.",
+        "rating": 3,
+        "price": 100
+        
+    },
+    {
+        "id": "2",
+        "imgUrl": "",
+        "ProductName": "Product2",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit sint commodi facilis omnis? Cumque eius tenetur quasi dolorem, dignissimos suscipit? Aspernatur mollitia cupiditate fugiat ratione praesentium ipsum nam atque provident.",
+        "rating": 5,
+        "price": 150
+        
+    },
+    {
+        "id": "3",
+        "imgUrl": "",
+        "ProductName": "Product3",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit sint commodi facilis omnis? Cumque eius tenetur quasi dolorem, dignissimos suscipit? Aspernatur mollitia cupiditate fugiat ratione praesentium ipsum nam atque provident.",
+        "rating": 4,
+        "price": 80
+        
+    },
+    {
+        "id": "4",
+        "imgUrl": "",
+        "ProductName": "Product4",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit sint commodi facilis omnis? Cumque eius tenetur quasi dolorem, dignissimos suscipit? Aspernatur mollitia cupiditate fugiat ratione praesentium ipsum nam atque provident.",
+        "rating": 4.5,
+        "price": 65
+        
+    }
+
+]
