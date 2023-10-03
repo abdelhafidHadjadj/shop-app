@@ -32,13 +32,37 @@ body {
 }
 
 header {
-  @apply flex p-4 w-full fixed border
+  @apply flex py-3 px-4 w-full fixed border
 }
 header .NavBar {
-  @apply flex justify-between w-full
+  @apply flex items-center justify-between w-full
 }
 header .NavBar ul{
   @apply flex gap-4
 }
 
+.main{
+  @apply absolute top-[10%] 
+}
 
+footer {
+  @apply flex flex-col items-center p-4 absolute bottom-0 border w-full
+}
+
+.footer-inner {
+  @apply flex gap-10 w-full 
+}
+
+.logo-box {
+  @apply w-[30%]
+}
+.footer-box {
+  @apply w-1/4
+}
+.footer-inner-box {
+  @apply flex w-3/4 justify-between
+}
+
+.copyright p{
+  @apply opacity-30
+}

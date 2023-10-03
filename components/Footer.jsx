@@ -6,14 +6,16 @@ const Footer = () => {
   return (
     <footer>
       <div className="footer-inner">
-        <div>Logo</div>
-        <div>
+        <div className="logo-box">Logo</div>
+        <div className="footer-inner-box">
           {footerLinks.map((item) => (
             <Link href={item.link}>{item.text}</Link>
           ))}
         </div>
       </div>
-      <div>Copyright@2023</div>
+      <div className="copyright">
+        <p>Copyright@2023</p>
+      </div>
     </footer>
   );
 };

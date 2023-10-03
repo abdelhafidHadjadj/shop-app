@@ -12,7 +12,7 @@ export const navBarLinks = [
     link: "/about-us",
   },
   {
-    text: "About Us",
+    text: "Contact Us",
     link: "/about-us",
   },
 ];
